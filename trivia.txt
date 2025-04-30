@@ -1,0 +1,71 @@
+Preguntas y opciones:
+1. ¿Quién es el máximo goleador en la historia de los mundiales de fútbol?
+   a) Diego Maradona
+   b) Miroslav Klose
+   c) Miroslav Klose ✅
+   d) Cristiano Ronaldo
+
+2. ¿Cuál es la competición de clubes más importante del mundo?
+   a) Copa América
+   b) Eurocopa
+   c) Liga de Campeones (Champions League) ✅
+   d) Copa Libertadores
+
+3. ¿Qué selección ha ganado más Copas del Mundo?
+   a) Alemania
+   b) Brasil ✅
+   c) Argentina
+   d) Italia
+
+4. ¿Quién es conocido como “La Pulga”?
+   a) Neymar
+   b) Ronaldinho
+   c) Lionel Messi ✅
+   d) Ángel Di María
+
+5. ¿En qué país se jugó la primera Copa Mundial de Fútbol?
+   a) Italia
+   b) Uruguay ✅
+   c) Argentina
+   d) Inglaterra
+
+6. ¿Cuál es el equipo con más títulos de Champions League?
+   a) AC Milan
+   b) Real Madrid ✅
+   c) Bayern Múnich
+   d) Barcelona
+
+7. ¿En qué año ganó España su primera Copa del Mundo?
+   a) 2014
+   b) 2010 ✅
+   c) 2006
+   d) 2002
+
+8. ¿Qué país ganó el Mundial de 2022?
+   a) Francia
+   b) Alemania
+   c) Brasil
+   d) Argentina ✅
+
+9. ¿Qué jugador tiene más Balones de Oro?
+   a) Pelé
+   b) Diego Maradona
+   c) Lionel Messi ✅
+   d) Cristiano Ronaldo
+
+10. ¿Cuál es el apodo del futbolista colombiano Radamel Falcao?
+   a) El Tigre
+   b) El León
+   c) El Tigre ✅
+   d) El Cazador
+
+Sistema de puntos (solo suma si la respuesta es correcta):
+- Respuesta correcta: 5 puntos
+- Respuesta incorrecta o tiempo agotado: 0 puntos
+
+Resultados finales:
+- 45–50 puntos: **EXCELENTE**
+- 35–44 puntos: **MUY BUENO**
+- 25–34 puntos: **BUENO**
+- 15–24 puntos: **ACEPTABLE**
+- 0–14 puntos: **MALA**

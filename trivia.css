@@ -1,0 +1,159 @@
+body {
+  background-image: url("https://previews.123rf.com/images/leavector/leavector1906/leavector190600103/126161329-patr%C3%B3n-de-doodle-de-fondo-de-f%C3%BAtbol-soccer-fondo-de-ilustraci%C3%B3n-vectorial-para-impresi%C3%B3n-textil.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+
+  display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh; /* ocupa todo el alto visible */
+flex-direction: column;
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* .inicio {
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  margin-top: 12.5%;
+  padding: 20px 0px;
+  justify-content: center; 
+} */
+.inicio {
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  max-width: 700px;
+  padding: 20px 0px;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+
+.inicio h1.titulo {
+  font-size: 3rem;
+  color: #ff9100;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: zoomIn 0.8s ease-out;
+}
+/* @keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+} */
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animacion-zoom {
+  animation: zoomIn 0.8s ease-out;
+}
+
+
+
+.inicio p {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  
+}
+
+#nombre-jugador {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+#btn-continuar, #btn-rejugar, #btn-nuevo-usuario {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#btn-continuar:hover, #btn-rejugar:hover, #btn-nuevo-usuario:hover {
+  background-color: #0056b3;
+}
+
+.pregunta_nombre, .resultado_titulo {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.pregunta_contenido {
+  padding: 15px;
+}
+
+.pregunta_enunciado {
+  text-align: justify;
+  min-height: 80px;
+}
+
+.pregunta_alternativas button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #11e257;
+  color: #fff;
+}
+
+.pregunta_alternativas button:hover {
+  opacity: 0.9;
+}
+
+#barra-progreso {
+  width: 100%;
+  height: 16px;
+  background-color: rgb(32, 79, 233);
+  margin-top: 20px;
+}
+
+.resultado_titulo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffc60b;
+}
+
+
+
+  

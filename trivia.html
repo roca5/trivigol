@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz de Fútbol</title>
+  <link rel="stylesheet" href="trivia.css">
+</head>
+<body>
+
+<!-- Pantalla de inicio -->
+<div class="inicio" id="pantalla-inicio">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-t_FrkVsZ7nM_boAnzdqBS8mTFAeR2gtluw&s" alt="Balón fútbol" class="imagen-inicio animacion-zoom" width="200px"> 
+  <h1 class="titulo">TriviGOL</h1>
+  <!-- <h1 class="titulo animacion-zoom">Ponte la 10</h1> -->
+
+  <p>¿Qué tanto sabes de fútbol? ¡Ponte a prueba!</p>
+  <input type="text" id="nombre-jugador" placeholder="Ingresa tu nombre">
+  <button id="btn-continuar">Continuar</button>
+</div>
+
+<!-- Contenedor del quiz -->
+<div class="container" id="quiz-container" style="display: none;">
+  <div class="card">
+    <h3 class="pregunta_nombre">Pregunta <span id="numero-pregunta">1</span>/10</h3>
+    <div class="pregunta_contenido">
+      <p class="pregunta_enunciado" id="pregunta"></p>
+      <div id="timer">Tiempo restante: <span id="tiempo">15</span>s</div>
+      <div class="pregunta_alternativas">
+        <button id="op1"></button>
+        <button id="op2"></button>
+        <button id="op3"></button>
+        <button id="op4"></button>
+      </div>
+    </div>
+  </div>
+  <progress id="barra-progreso" max="100" value="0"></progress>
+</div>
+
+<script src="trivia.js"></script>
+</body>
+</html>
